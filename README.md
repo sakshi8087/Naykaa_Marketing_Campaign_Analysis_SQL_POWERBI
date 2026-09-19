@@ -1,57 +1,311 @@
-# Naykaa_Marketing_Campaign_Analysis_SQL_POWERBI
 
-🎯 Project Objective: The objective of this project is to Analyze Nykaa’s marketing campaign data to evaluate campaign, channel, and audience performance, optimize marketing spend, identify key revenue and ROI drivers, and uncover funnel and seasonal trends using SQL, Python, and Power BI to support data-driven marketing decisions.
+# 💄 Nykaa Marketing Campaign Analysis — SQL & Power BI
 
-Key Objectives
+## 🎯 Project Objective
 
-Analyze campaign performance across different marketing channels.
-Identify high-performing customer segments and campaigns.
-Measure key marketing KPIs such as Revenue, ROI, CTR, CPA, and Conversion Rate.
-Analyze customer funnel performance and seasonal trends.
-Build an interactive Power BI dashboard to support data-driven decision-making
+This project analyzes **Nykaa's marketing campaign data** to evaluate campaign, channel, audience, funnel, and seasonal performance.
+
+The goal is to identify **revenue and ROI drivers, optimize marketing spend, understand customer conversion behavior, and generate actionable business insights** using SQL and Power BI.
+
+---
+
+## 📌 Key Objectives
+
+* 📊 Analyze campaign performance across different campaign types and channels
+* 💰 Identify major revenue and ROI drivers
+* 🎯 Analyze customer audience performance
+* 📈 Measure key marketing KPIs such as Revenue, ROI, CTR, CPA, CPC, and Conversion Rate
+* 🔄 Analyze the marketing funnel from impressions to conversions
+* 🎉 Compare festive vs. non-festive campaign performance
+* 📅 Identify monthly revenue and conversion trends
+* 📊 Build an interactive Power BI dashboard for decision-making
+
+---
+
+## 🗂️ Dataset
+
+The dataset contains realistic marketing campaign data with metrics such as:
+
+* Campaign ID
+* Campaign Type
+* Target Audience
+* Channel Used
+* Duration
+* Impressions
+* Clicks
+* Leads
+* Conversions
+* Acquisition Cost
+* Revenue
+* ROI
+* CTR
+* CPC
+* CPA
+* AOV
+* Engagement Score
+* Date
+* Festive Season
+
+### 🔄 Marketing Funnel
+
+**Impressions → Clicks → Leads → Conversions**
+
+This funnel was analyzed to identify where customers are being lost and which channels perform better at each stage.
+
+---
+
+## 🛠️ Tools & Technologies
+
+### 🗄️ SQL
+
+Used for:
+
+* Data validation
+* Data exploration
+* Campaign performance analysis
+* Funnel analysis
+* Cost analysis
+* Audience segmentation
+* Seasonal analysis
+* KPI calculations
+* Outlier detection using IQR
+* Business queries
+
+### 📊 Power BI
+
+Used for:
+
+* Data modeling
+* DAX measures
+* KPI cards
+* Interactive dashboards
+* Slicers and filters
+* Campaign and channel analysis
+* Funnel visualization
+* Trend analysis
+
+### 📗 Excel
+
+Used for:
+
+* Data checking
+* Data cleaning
+* Validation
+* Initial exploration
+
+---
+
+# 🔍 Analysis Performed
+
+## 1. 📢 Campaign Performance
+
+Analyzed campaigns based on:
+
+* Revenue
+* ROI
+* CTR
+* Acquisition Cost
+* CPA
+* CPC
+
+This helped identify campaigns that generate higher revenue and campaigns that are more cost-efficient.
+
+---
+
+## 2. 🔄 Funnel Analysis
+
+Analyzed the complete customer journey:
+
+**Impressions → Clicks → Leads → Conversions**
+
+Key metrics include:
+
+* CTR
+* Lead Generation Rate
+* Conversion Rate
+* Conversion Loss Rate
+
+This helps identify where potential customers drop out of the marketing funnel.
+
+---
+
+## 3. 💰 Cost Analysis
+
+Compared campaign and channel efficiency using:
+
+* **CPC** — Cost per Click
+* **CPA** — Cost per Acquisition
+* **Acquisition Cost**
+* **ROI**
+
+The analysis helps identify marketing activities that generate conversions at a lower acquisition cost.
+
+---
+
+## 4. 👥 Audience Analysis
+
+Compared different target audiences based on:
+
+* Revenue
+* Engagement
+* ROI
+* CPA
+* Conversion Rate
+
+This helps identify high-value and cost-efficient customer segments.
+
+---
+
+## 5. 🎉 Festive & Seasonal Analysis
+
+Compared **festive vs. non-festive campaigns** using:
+
+* Revenue
+* Average Revenue
+* Conversions
+* ROI
+* AOV
+
+Monthly trends were also analyzed to identify changes in revenue and conversion performance over time.
+
+---
+
+# 💡 Key Insights
+
+### 💰 Revenue
+
+**Working Professionals** generated the highest revenue among the analyzed target audiences.
+
+### 📢 Campaign Performance
+
+Different campaign types showed noticeable differences in **revenue, ROI, CTR, and acquisition efficiency**, allowing campaigns to be compared across multiple KPIs.
+
+### 📧 Cost Efficiency
+
+**Email campaigns showed the lowest average CPA and CPC** in the analysis, indicating comparatively lower acquisition and click costs.
+
+### 🎯 Audience Engagement
+
+**Young Adults** showed higher average engagement compared with other analyzed audiences.
+
+### 🔄 Funnel Performance
+
+Channel-level funnel analysis highlighted differences in **lead generation and conversion rates**, helping identify where users are lost before completing a purchase.
+
+### 🎉 Seasonal Performance
+
+Festive and non-festive periods were compared to understand differences in revenue, conversions, ROI, and AOV.
+
+### ⚠️ Outlier Analysis
+
+The **IQR method** was used to identify unusually high CPA values that may require further investigation.
+
+---
+
+# 📊 Power BI Dashboard
+
+The Power BI dashboard provides an interactive view of:
+
+* 💰 Revenue
+* 📈 ROI
+* 🎯 Conversion Rate
+* 💵 Acquisition Cost
+* 📢 Campaign Performance
+* 🔄 Marketing Funnel
+* 👥 Audience Performance
+* 📅 Monthly Trends
+* 🎉 Festive Performance
+
+Users can interact with the dashboard using filters and slicers to explore campaign performance from different perspectives.
+
+---
+
+# 🧮 Important KPIs
+
+| KPI                 | Description                                   |
+| ------------------- | --------------------------------------------- |
+| 💰 Revenue          | Revenue generated by campaigns                |
+| 📈 ROI              | Return generated relative to marketing spend  |
+| 👆 CTR              | Percentage of impressions resulting in clicks |
+| 💵 CPC              | Cost per click                                |
+| 🎯 CPA              | Cost per acquisition                          |
+| 🔄 Conversion Rate  | Percentage of leads converted                 |
+| 🛒 AOV              | Average order value                           |
+| ❤️ Engagement Score | Level of audience engagement                  |
+
+---
 
 <img width="682" height="386" alt="image" src="https://github.com/user-attachments/assets/12ae3cb4-a83c-4913-9a09-4a51857fe927" />
 <img width="674" height="384" alt="image" src="https://github.com/user-attachments/assets/72ff655c-98f2-4943-8151-0bc71f7b6e41" />
 <img width="666" height="381" alt="image" src="https://github.com/user-attachments/assets/16b39b07-b63c-4a9a-ae01-0ea1362ae519" />
 <img width="731" height="380" alt="image" src="https://github.com/user-attachments/assets/f037b37a-2fda-4e35-902f-1620b2d5dba4" />
 
+# 🧠 SQL Concepts Used
+
+```text
+SELECT
+WHERE
+GROUP BY
+HAVING
+ORDER BY
+TOP
+SUM()
+AVG()
+COUNT()
+ROUND()
+CASE WHEN
+CTE
+Subqueries
+Window Functions
+PERCENTILE_CONT()
+IQR / Outlier Analysis
+Date Functions
+```
+
+---
+
+# 📂 Project Structure
+
+```text
+Nykaa_Marketing_Campaign_Analysis/
+│
+├── 📄 README.md
+├── 📁 SQL/
+│   └── Marketing_Campaign_Analysis.sql
+│
+├── 📁 PowerBI/
+│   └── Nykaa_Marketing_Dashboard.pbix
+│
+├── 📁 Excel/
+│   └── Marketing_Data.xlsx
+│
+└── 📁 Dashboard/
+    └── Dashboard_Screenshots/
+```
+
+---
+
+# 🚀 Project Outcome
+
+This project demonstrates how **SQL and Power BI can be used to convert marketing campaign data into actionable business insights**.
+
+The analysis covers the complete marketing journey:
+
+**📢 Campaign → 👀 Impressions → 👆 Clicks → 🎯 Leads → 🛒 Conversions → 💰 Revenue**
+
+It demonstrates practical skills in **SQL, marketing analytics, KPI analysis, funnel analysis, customer segmentation, outlier detection, and Power BI dashboard development**.
+
+---
+
+## 👨‍💻 Skills Demonstrated
+
+**SQL | Power BI | DAX | Marketing Analytics | Funnel Analysis | Customer Segmentation | KPI Analysis | Data Visualization | Business Intelligence | Excel**
 
 
 
-🛠️ Tools used
-🔹 - Business Understanding
 
-Define the Business Problem
-Define Project Objectives
-Identify Key Business Questions
-Define KPIs and Success Metrics
-🔹 - Dataset Preparation
 
-Created a realistic synthetic marketing dataset
-Used ChatGPT to assist with dataset structure and scenario design
-Defined campaign, channel, audience, funnel and financial metrics
-Performed data validation and consistency checks
-🔹 - Excel
 
-Data Checkup
-Data Cleaning
-Data Validation
-🔹 - MySQL
 
-Database Creation
-Table Creation
-Data Import
-Data Validation
-Ad-Hoc Analysis
-Business Queries
-🔹 - Power BI
 
-Connected to MySQL
-Data Import through SQL Queries
-Data Modeling
-DAX Measures
-Interactive Report Building
-Slicer Synchronization
-Page Navigation
-Conditional Formatting
-Report Publishing
+
